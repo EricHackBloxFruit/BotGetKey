@@ -4,7 +4,7 @@ const { Interaction, ModalBuilder, TextInputBuilder, TextInputStyle, ActionRowBu
 export async function bypass(interaction) {
     const modal = new ModalBuilder()
         .setCustomId('bypassmodal')
-        .setTitle('Bypass Link');
+        .setTitle('Bypass Link Nè');
 
     const url = new TextInputBuilder()
         .setCustomId('link')
