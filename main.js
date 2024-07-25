@@ -180,7 +180,7 @@ client.on('interactionCreate', async interaction => {
               type: 2,
               style: 5,
               label: "Invite Me",
-              url: "https://example.com/"
+              url: "https://discord.com/oauth2/authorize?client_id=1265998159360819262&scope=applications.commands%20bot&permissions=8"
             },
           ]
         }
