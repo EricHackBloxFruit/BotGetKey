@@ -5,12 +5,12 @@ import { bypass } from './bypass.js';
 
 // change import to const if it doesn't work
 
-const token = ``; // Your Bot Token!
-const clientId = ``; // Your Bot ClientID!
+const token = ``; // MTI2NTk5ODE1OTM2MDgxOTI2Mg.GoMDvy.rkpXhQTHPFCJshIoCGW-VZBmovAQNPfctrQ8tQ
+const clientId = ``; // 1265998159360819262
 
 // footer
 
-const OwnerName = `Made by Shouko`; // Your Name Or Something I Dont Care!
+const OwnerName = `Made by Elaina`; // Your Name Or Something I Dont Care!
 
 // api key & endpoint
 
@@ -19,12 +19,12 @@ const Endpoint = `http://45.90.13.151:6132`;
 
 // author
 
-const rlowisgay = `Shouko Bot -- Template`;
+const rlowisgay = `Elaina Bot -- Template`;
 const iconlink = `https://cdn.discordapp.com/icons/1221286752027672686/5ae16d3a1d7411a46abf6d4d6ac53934.png`;
-const monkey = `https://discord.gg/shoukohub`
+const monkey = `https://discord.gg/x48hGC2A`
 
 const commands = [
-  { name: 'bypass', description: 'Whitelist/Get Key'}, 
+  { name: 'bypass', description: 'Get Key Tại Đây'}, 
 ];
 
 const client = new Client({ intents: 0 });
@@ -88,9 +88,9 @@ client.on('interactionCreate', async interaction => {
         title: '<a:Loading:1232607552886411337> Bypassing...',
         color: 0xFFFF00,
         author: {
-          name: 'Shouko Collective | NO-Intelligent Units | 2024',
+          name: 'Elaina Collective | NO-Intelligent Units | 2024',
           iconURL: 'https://cdn.discordapp.com/icons/1221286752027672686/5ae16d3a1d7411a46abf6d4d6ac53934.png',
-          url: 'https://discord.gg/shoukohub'
+          url: 'https://discord.gg/x48hGC2A'
         },
         fields: [
           { name: '<a:papitas:1228689486012223568> Status:', value: `${box}Please wait...${box}` },
@@ -174,7 +174,7 @@ client.on('interactionCreate', async interaction => {
               type: 2,
               style: 5,
               label: "Support Server",
-              url: "https://discord.gg/shoukohub"
+              url: "https://discord.gg/x48hGC2A"
             },
             {
               type: 2,
